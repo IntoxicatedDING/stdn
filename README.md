@@ -1,5 +1,5 @@
 # STDN: Scale-Transferrable Object Detection
-A [PyTorch](http://pytorch.org/) implementation of [Scale-Transferrable Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf)
+A [PyTorch](http://pytorch.org/) implementation of [Scale-Transferrable Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf).
 
 ## Training
 To train a network:
@@ -22,4 +22,8 @@ python eval.py
 - Important options:
   * `trained_model`: Trained state_dict file path to open
   * `voc_root`: Location of VOC root directory
+  
+## Declaration
+
+The main framework is ported from [SSD in PyTorch](https://github.com/amdegroot/ssd.pytorch).
   

@@ -27,6 +27,8 @@ python eval.py
 
 The main framework is ported from [SSD in PyTorch](https://github.com/amdegroot/ssd.pytorch).
   
-## Reference
+## References
   
 - Peng Zhou, Bingbing Ni, Cong Geng, Jianguo Hu, Yi Xu; The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 528-537
+
+- [SSD in PyTorch](https://github.com/amdegroot/ssd.pytorch)
